@@ -1,46 +1,58 @@
 CACHE MANIFEST
 
-# Build 2011-05-17
+# Built 2015-03-11
 
 CACHE:
-http://phuongmt.github.io/projects/ato.jpg
-http://phuongmt.github.io/projects/becamex.jpg
-http://phuongmt.github.io/projects/dopeme.jpg
-http://phuongmt.github.io/projects/drinkbettertea.jpg
-http://phuongmt.github.io/projects/essance.jpg
-http://phuongmt.github.io/projects/freelancer.jpg
-http://phuongmt.github.io/projects/kyuc.jpg
-http://phuongmt.github.io/projects/newcity.jpg
-http://phuongmt.github.io/projects/ohyeap.jpg
-http://phuongmt.github.io/projects/pinaco.jpg
-http://phuongmt.github.io/projects/recipes.jpg
-http://phuongmt.github.io/projects/sampling.jpg
-http://phuongmt.github.io/projects/visalus.jpg
-http://phuongmt.github.io/projects/vxcs.jpg
-http://phuongmt.github.io/projects/thumb_ato.jpg
-http://phuongmt.github.io/projects/thumb_becamex.jpg
-http://phuongmt.github.io/projects/thumb_dopeme.jpg
-http://phuongmt.github.io/projects/thumb_drinkbettertea.jpg
-http://phuongmt.github.io/projects/thumb_essance.jpg
-http://phuongmt.github.io/projects/thumb_freelancer.jpg
-http://phuongmt.github.io/projects/thumb_kyuc.jpg
-http://phuongmt.github.io/projects/thumb_newcity.jpg
-http://phuongmt.github.io/projects/thumb_ohyeap.jpg
-http://phuongmt.github.io/projects/thumb_pinaco.jpg
-http://phuongmt.github.io/projects/thumb_recipes.jpg
-http://phuongmt.github.io/projects/thumb_sampling.jpg
-http://phuongmt.github.io/projects/thumb_visalus.jpg
-http://phuongmt.github.io/projects/thumb_vxcs.jpg
+projects/ato.jpg
+projects/becamex.jpg
+projects/dopeme.jpg
+projects/drinkbettertea.jpg
+projects/essance.jpg
+projects/freelancer.jpg
+projects/kyuc.jpg
+projects/newcity.jpg
+projects/ohyeap.jpg
+projects/pinaco.jpg
+projects/recipes.jpg
+projects/sampling.jpg
+projects/visalus.jpg
+projects/vxcs.jpg
+projects/thumb_ato.jpg
+projects/thumb_becamex.jpg
+projects/thumb_dopeme.jpg
+projects/thumb_drinkbettertea.jpg
+projects/thumb_essance.jpg
+projects/thumb_freelancer.jpg
+projects/thumb_kyuc.jpg
+projects/thumb_newcity.jpg
+projects/thumb_ohyeap.jpg
+projects/thumb_pinaco.jpg
+projects/thumb_recipes.jpg
+projects/thumb_sampling.jpg
+projects/thumb_visalus.jpg
+projects/thumb_vxcs.jpg
 
-http://phuongmt.github.io/css/freelancer.min.css
-http://phuongmt.github.io/css/bootstrap.min.css
+css/freelancer.min.css
+css/bootstrap.min.css
+font-awesome/css/font-awesome.min.css
+font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3
+font-awesome/fonts/fontawesome-webfont.ttf?v=4.0.3
 
-http://phuongmt.github.io/js/bootstrap.min.js
-http://phuongmt.github.io/js/cbpAnimatedHeader.min.js
-http://phuongmt.github.io/js/classie.min.js
-http://phuongmt.github.io/js/freelancer.min.js
+js/bootstrap.min.js
+js/cbpAnimatedHeader.min.js
+js/classie.min.js
+js/freelancer.min.js
+js/jquery-1.10.2.js
 
-
+#External Link
+http://www.google-analytics.com/analytics.js
+http://fonts.googleapis.com/css?family=Montserrat:400,700
+http://fonts.googleapis.com/css?family=Lato:400,700,400italic
+http://platform.twitter.com/widgets.js
+https://apis.google.com/js/platform.js
+http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js
+http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2
+http://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2
 
 NETWORK:
-http://*
+http://phuongmt.github.io/*

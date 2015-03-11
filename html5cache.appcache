@@ -1,0 +1,11 @@
+CACHE MANIFEST
+
+# Build 2011-05-17
+
+CACHE:
+projects/ato.jpg
+projects/becamex.jpg
+projects/dopeme.jpg
+
+NETWORK:
+http://*

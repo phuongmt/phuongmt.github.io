@@ -3,9 +3,44 @@ CACHE MANIFEST
 # Build 2011-05-17
 
 CACHE:
-projects/ato.jpg
-projects/becamex.jpg
-projects/dopeme.jpg
+http://phuongmt.github.io/projects/ato.jpg
+http://phuongmt.github.io/projects/becamex.jpg
+http://phuongmt.github.io/projects/dopeme.jpg
+http://phuongmt.github.io/projects/drinkbettertea.jpg
+http://phuongmt.github.io/projects/essance.jpg
+http://phuongmt.github.io/projects/freelancer.jpg
+http://phuongmt.github.io/projects/kyuc.jpg
+http://phuongmt.github.io/projects/newcity.jpg
+http://phuongmt.github.io/projects/ohyeap.jpg
+http://phuongmt.github.io/projects/pinaco.jpg
+http://phuongmt.github.io/projects/recipes.jpg
+http://phuongmt.github.io/projects/sampling.jpg
+http://phuongmt.github.io/projects/visalus.jpg
+http://phuongmt.github.io/projects/vxcs.jpg
+http://phuongmt.github.io/projects/thumb_ato.jpg
+http://phuongmt.github.io/projects/thumb_becamex.jpg
+http://phuongmt.github.io/projects/thumb_dopeme.jpg
+http://phuongmt.github.io/projects/thumb_drinkbettertea.jpg
+http://phuongmt.github.io/projects/thumb_essance.jpg
+http://phuongmt.github.io/projects/thumb_freelancer.jpg
+http://phuongmt.github.io/projects/thumb_kyuc.jpg
+http://phuongmt.github.io/projects/thumb_newcity.jpg
+http://phuongmt.github.io/projects/thumb_ohyeap.jpg
+http://phuongmt.github.io/projects/thumb_pinaco.jpg
+http://phuongmt.github.io/projects/thumb_recipes.jpg
+http://phuongmt.github.io/projects/thumb_sampling.jpg
+http://phuongmt.github.io/projects/thumb_visalus.jpg
+http://phuongmt.github.io/projects/thumb_vxcs.jpg
+
+http://phuongmt.github.io/css/freelancer.min.css
+http://phuongmt.github.io/css/bootstrap.min.css
+
+http://phuongmt.github.io/js/bootstrap.min.js
+http://phuongmt.github.io/js/cbpAnimatedHeader.min.js
+http://phuongmt.github.io/js/classie.min.js
+http://phuongmt.github.io/js/freelancer.min.js
+
+
 
 NETWORK:
 http://*

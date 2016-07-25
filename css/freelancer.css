@@ -466,3 +466,13 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+#projects .img-wrap.bg-more{
+	background-color:#eaeaea;
+}
+#projects .img-wrap .img-txt{
+	position:absolute;
+	top:50%;
+	display:block;
+	text-align:center;
+	color:#fff;
+}

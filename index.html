@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
 	<meta http-equiv="cache-control" content="no-cache" />
 	<meta http-equiv="expires" content="0" />
@@ -29,7 +28,7 @@
 	</script>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/freelancer.min.css" rel="stylesheet" type="text/css">
+    <link href="css/freelancer.css" rel="stylesheet" type="text/css">
 
     <!-- Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -56,7 +55,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Mai The Phuong</a>
+                <a class="navbar-brand" href="#page-top">
+                    <img class="logo mr-2" src="img/me.png" />
+                    <span>MAI THẾ PHƯƠNG</span>
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -86,21 +88,24 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-text">
-						<span class="name">Web Developer</span>
+						<span class="name">A FULL STACK DEVELOPER</span>
 						<hr class="star-light">
-                        <span class="skills">4+ years of website development.</span><br/>
-						<span class="skills">Strong experiences in PHP, HTML5, CSS3, mySql, CMS, and Framework.</span><br/>
-						<span class="skills">Good at SVN, GIT</span><br/>
-						<span class="skills">Experienced working in Agency Company</span><br/>
-						<span class="skills">Knowledgeable of marketing online, SEO, SEM</span>
-						<p class="text-center page-scroll"><a href="#contact" class="btn btn-danger">Contact me</a></p>
+                        <span class="skills">6+ years of website development.</span><br/>
+						<span class="skills">Strong experiences in PHP, Javascript, HTML, CSS, MySql.</span><br/>
+                        <span class="skills">Good understanding Software Design, Database Design, Design Pattern, RestfulAPI.</span><br/>
+                        <span class="skills">Good knowledge on linux.</span><br/>
+						<span class="skills">Familiarity with version control software. Git or SVN.</span><br/>
+						<span class="skills">Knowledge of Solidity, Smart Contract.</span><br/>
+						<span class="skills">Experienced working in Agency Company.</span><br/>
+						<span class="skills">Knowledgeable of marketing online, SEO, SEM.</span>
+						<p class="text-center page-scroll mt-3"><a href="#contact" class="btn btn-primary">CONTACT ME NOW</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="skills">
+    <section id="skills" class="gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -108,124 +113,113 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row text-center">
-				<p>
-				<a href="#PHP" class="btn btn-danger">PHP</a>
-				<a href="#MySql" class="btn btn-danger">MySql</a>
-				<a href="#JavaScript" class="btn btn-default">JavaScript</a>
-				<a href="#CSS/CSS3" class="btn btn-success">CSS/CSS3</a>
-				<a href="#HTML/HTML5" class="btn btn-primary">HTML/HTML5</a>
-				</p>
-				<p>
-				<a href="#CodeIgniter" class="btn btn-danger">CodeIgniter</a>
-				<a href="#Joomla" class="btn btn-warning">Joomla</a>
-				<a href="#Wordpress" class="btn btn-primary">Wordpress</a>
-				</p>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-normal">PROGRAMMING LANGUAGES</h5>
+                    <ul>
+                        <li>PHP</li>
+                        <li>MySql</li>
+                        <li>JavaScript</li>
+                        <li>HTML/ CSS</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-normal">FRAMEWORKS & PLATFORMS</h5>
+                    <ul>
+                        <li>ReactJS / React Native / NodeJS</li>
+                        <li>jQuery / Twitter Bootstrap</li>
+                        <li>Codeigniter / Laravel</li>
+                        <li>Wordpress / Joomla / Zend framework</li>
+                        <li>FacebookSDK</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h5 class="fw-normal">DATABASE</h5>
+                    <ul class="mb-3">
+                        <li>MySql</li>
+                        <li>MS SQL</li>
+                    </ul>
+                    <h5 class="fw-normal">VERSION CONTROL</h5>
+                    <ul class="">
+                        <li>Git</li>
+                        <li>SVN (TortoiseSVN)</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h4 class="fw-normal">IDE</h4>
+                    <ul>
+                        <li>Atom</li>
+                        <li>VS Code</li>
+                        <li>PHP Storm</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="success" id="projects">
+    <section id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Projects</h2>
-                    <hr class="star-light">
+                    <h2>Highlight Projects</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 mb-2">
+                    <img src="projects/fv.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4><a href="https://freelancerviet.vn" target="_blank" rel="nofollow">FREELANCERVIET.VN</a></h4>
+                    <p><strong>All developed from me</strong></p>
+                    <p><strong>Technologies: </strong> ReactJS, jQuery, Twitter Bootstrap, Codeigniter, MySql, Microsoft Azure, Google Cloud, SES Amazon</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 mb-2">
+                    <img src="projects/gd.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4><a href="https://getdone.co" target="_blank" rel="nofollow">GETDONE.CO</a></h4>
+                    <p><strong>All developed from me</strong></p>
+                    <p><strong>Technologies: </strong> Codeigniter, MySql, ReactJS, jQuery, Twitter Bootstrap, Microsoft Azure, Google Cloud, SES Amazon</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 mb-2">
+                    <img src="projects/ic.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4><a href="https://karaoke.com.vn" target="_blank" rel="nofollow">KARAOKE.COM.VN</a></h4>
+                    <p><strong>All developed from me</strong></p>
+                    <p><strong>Technologies: </strong> Wordpress, MySql, jQuery, Twitter Bootstrap</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4 mb-2">
+                    <img src="projects/jl.png" class="img-responsive" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h4><a href="https://jamlos.com" target="_blank" rel="nofollow">JAMLOS.COM</a></h4>
+                    <p><strong>All developed from me</strong></p>
+                    <p><strong>Technologies: </strong> Wordpress, Woocommerce, MySql, jQuery, Twitter Bootstrap</p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item ">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-wrap bg1"><img src="projects/thumb_pinaco.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
+                <div class="col-md-4 mb-2">
+                    <img src="projects/pa.png" class="img-responsive" alt="">
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-wrap bg2"><img src="projects/thumb_becamex.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                       <div class="img-wrap bg3"> <img src="projects/thumb_newcity.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-wrap bg4"> <img src="projects/thumb_dopeme.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4_1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-wrap bg4"> <img src="projects/thumb_brandeli.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <div class="img-wrap bg5"> <img src="projects/thumb_essance.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                       <div class="img-wrap bg4"> <img src="projects/thumb_vxcs.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-				<div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                       <div class="img-wrap bg1"> <img src="projects/thumb_fv.jpg" class="img-responsive img-circle" alt="" /></div>
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a class="portfolio-link" >
-                        <div class="img-wrap bg-more">
-							<span class="img-txt">And more <i class="fa fa-plus fa-3x"></i></span>
-						</div>
-                    </a>
+                <div class="col-md-8">
+                    <h4><a href="https://panservices.vn" target="_blank" rel="nofollow">PANSERVICES.VN</a></h4>
+                    <p><strong>All developed from me</strong></p>
+                    <p><strong>Technologies: </strong> Laravel, MySql, jQuery, Twitter Bootstrap</p>
                 </div>
             </div>
+            <p class="text-center page-scroll mt-3"><a href="#contact" class="btn btn-primary">SEE MORE</a></p>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -255,17 +249,6 @@
                             </li>
                         </ul>
 					</div>
-					<div class="row  text-center">
-						<iframe src="//www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fmaithe.phuong&amp;width=80&amp;height=20&amp;colorscheme=light&amp;layout=button&amp;show_faces=false&amp;appId=563984817056132" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:20px;" allowTransparency="true"></iframe>
-						<a href="https://twitter.com/maithephuongit" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @maithephuongit</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-						<!-- Đặt thẻ này vào phần đầu hoặc ngay trước thẻ đóng phần nội dung của bạn. -->
-						<script type="text/javascript" src="https://apis.google.com/js/platform.js">
-						  {lang: 'en-GB'}
-						</script>
-						<!-- Đặt thẻ này vào nơi bạn muốn tiện ích con kết xuất. -->
-						<div class="g-follow" data-annotation="none" data-height="20" data-href="//plus.google.com/u/0/115160897148520249939" data-rel="author"></div>
-					</div>
                 </div>
             </div>
         </div>
@@ -276,281 +259,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; 2016 - Mai The Phuong
+                        Copyright &copy; 2019 - Mai The Phuong
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <div class="scroll-top page-scroll visible-xs visble-sm">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>pinaco.com.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/pinaco.jpg" class="img-responsive img-centered" alt="">
-                            <p>DRY CELL AND STORAGE BATTERY JOINT STOCK COMPANY</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://pinaco.com.vn" target="_blank">pinaco.com.vn</a></strong>
-                                </li>
-                                <li>CMS: <strong><a href="#">Joomla</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>becamex.com.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/becamex.jpg" class="img-responsive img-centered" alt="">
-                            <p>INVESTMENT AND INDUSTRIAL DEVELOPMENT CORPORATION!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://becamex.com.vn/" target="_blank">becamex.com.vn</a></strong>
-                                </li>
-                                <li>CMS: <strong><a href="#">Joomla</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>binhduongnewcity.com.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/newcity.jpg" class="img-responsive img-centered" alt="">
-                            <p>BINH DUONG NEWCITY Political, cultural and social center of the province</p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://binhduongnewcity.com.vn" target="_blank">binhduongnewcity.com.vn</a></strong>
-                                </li>
-                                <li>CMS: <strong><a href="#">Joomla</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>dopeme.com</h2>
-                            <hr class="star-primary">
-                            <img src="projects/dopeme.jpg" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://dopeme.com" target="_blank">dopeme.com</a></strong>
-                                </li>
-                                <li>Framework: <strong><a href="#">Pintastic 2.0</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4_1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>brandeli.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/brandeli.jpg" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://brandeli.vn" target="_blank">brandeli.vn</a></strong>
-                                </li>
-                                <li>Framework: <strong><a href="#">Pintastic 2.0</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>essance.com.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/essance.jpg" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://essance.com.vn/" target="_blank">essance.com.vn</a></strong>
-                                </li>
-                                <li><strong><a href="#">AngularJs</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>sampling.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/sampling.jpg" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://sampling.vn" target="_blank">sampling.vn</a></strong>
-                                </li>
-                                <li>Framework: <strong><a href="#">CodeIgniter</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>vungxaycuocsong.com.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/vxcs.jpg" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="http://www.vungxaycuocsong.com.vn/" target="_blank">vungxaycuocsong.com.vn</a></strong>
-                                </li>
-                                <li>CMS: <strong><a href="#">Joomla</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	<div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>freelancerviet.vn</h2>
-                            <hr class="star-primary">
-                            <img src="projects/fv.jpg" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Client: <strong><a href="https://freelancerviet.vn/" target="_blank">freelancerviet.vn</a></strong>
-                                </li>
-                                <li>Framework: <strong><a href="#">CodeIgniter</a></strong>
-                                </li>
-                            </ul>
-                            <button href="#Close" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
